@@ -1,0 +1,37 @@
+body {
+  background-color: #fff; /* Light mode background color */
+  color: #000; /* Light mode text color */
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #8a2be2;
+}
+
+#project {
+  background-color: #8a2be2;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: aliceblue;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.gallery-img {
+width: 50vh;
+padding: 0;
+display: inline-block;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
